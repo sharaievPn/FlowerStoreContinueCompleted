@@ -12,8 +12,8 @@ public class FlowerPack {
         this.quantity = quantityCurrent;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = Math.max(quantity, 1);
+    public void setQuantity(int quantityCurrent) {
+        this.quantity = Math.max(quantityCurrent, 1);
     }
 
     public double getPrice() {
