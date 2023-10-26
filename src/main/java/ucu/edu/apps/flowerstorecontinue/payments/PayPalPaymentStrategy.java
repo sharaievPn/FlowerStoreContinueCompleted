@@ -10,7 +10,7 @@ public class PayPalPaymentStrategy implements Payment {
             System.out.printf("The price of %s is paid using PayPal.%n", price);
             return true;
         }
-        System.out.println("Purchase is not fulfilled");
+        System.out.println("You have not purchased anything!");
         return false;
     }
 }

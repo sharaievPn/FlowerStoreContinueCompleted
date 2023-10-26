@@ -11,7 +11,7 @@ public class CreditCardPaymentStrategy implements Payment {
                     + "using Credit Card.%n", price);
             return true;
         }
-        System.out.println("Purchase is not fulfilled");
+        System.out.println("You have not purchased anything!");
         return false;
     }
 }

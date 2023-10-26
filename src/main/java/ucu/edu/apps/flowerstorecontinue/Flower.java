@@ -1,9 +1,10 @@
 package ucu.edu.apps.flowerstorecontinue;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
+import lombok.NoArgsConstructor;
 
-@AllArgsConstructor @Setter
+@AllArgsConstructor @Getter
+@NoArgsConstructor
 public class Flower {
     @Getter
     private double sepalLength;

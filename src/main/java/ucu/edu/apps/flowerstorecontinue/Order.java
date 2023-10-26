@@ -31,7 +31,7 @@ public class Order {
 
     void processOrder() {
         payment.pay(calculateTotalPrice());
-        delivery.deliver();
+        System.out.println(delivery.deliver(this.items));
     }
 
     void setPaymentStrategy(Payment paymentMethod) {

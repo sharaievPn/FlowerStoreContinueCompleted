@@ -11,7 +11,6 @@ import ucu.edu.apps.flowerstorecontinue.FlowerColor;
 @RestController
 @RequestMapping("/api/flowers")
 public class FlowerController {
-
     @GetMapping("/list")
     public List<Flower> getFlower() {
         double sepalLength = 11.5;
