@@ -7,7 +7,6 @@ import ucu.edu.apps.flowerstorecontinue.deliveries.Delivery;
 import ucu.edu.apps.flowerstorecontinue.deliveries.PostDeliveryStrategy;
 
 import java.util.LinkedList;
-import java.util.List;
 
 
 public class DeliveryTests {
